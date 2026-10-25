@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE game_studios SYSTEM "game_studios.dtd">
+<game_studios status="active" main_genre="Soulslike" year_of_first_game_published="1994" id="4">
+<studiodata>
+  <name> FromSoftware </name>
+  <headquarters> Tokyo, Japan </headquarters>
+  <founded day="1" month="11" year="1986"/>
+  <key_people title="founder"> Naotoshi Zin </key_people>
+  <key_people title="president/representative director"> Hidetaka Miyazaki </key_people>
+  <number_of_employees month="6" year="2024"> 423 </number_of_employees>
+</studiodata>
+<citation author="Hidetaka Miyazaki">
+  I want to preface this by saying I absolutely suck at video games,
+</citation>
+<overview>
+  <history>
+    <p>
+      FromSoftware is a Japanese video game development and publishing company. It was founded by Naotoshi Zin in Tokyo
+      on November 1, 1986. Initially a developer of business software, the company released their first video game,
+      King's Field, for the PlayStation in 1994. Its success shifted FromSoftware to focus fully on games, with them
+      producing two more King's Field games before the first release of the mecha shooter series Armored Core in 1997.
+    </p>
+
+    <p>
+
+      By the 2000s, FromSoftware's releases included the Echo Night, Shadow Tower, Lost Kingdoms, Otogi, and Another
+      Century's Episode series. The company achieved breakout success by the 2010s with Demon's Souls and the Dark Souls
+      trilogy of action role-playing games. Often cited among the greatest video games ever made, their emphasis on high
+      difficulty and environmental storytelling led to the creation of the Soulslike subgenre that includes
+      Bloodborne (2015), Sekiro (2019), and Elden Ring (2022).
+    </p>
+
+    <p>
+      Hidetaka Miyazaki, creator and director of Dark Souls, has served as FromSoftware's representative director and
+      president since 2014, with Zin remaining as an advisor. Miyazaki directs and designs the majority of the company's
+      games in addition to his executive duties. FromSoftware is owned primarily by Kadokawa Corporation, with minority
+      stakes by Tencent subsidiary Sixjoy Hong Kong and Sony Interactive Entertainment. FromSoftware usually
+      self-publishes in Japan and has partnered with publishers such as Agetec, Sony, Bandai Namco Entertainment,
+      Sega, Capcom, Nintendo and Plaion internationally.
+    </p>
+  </history>
+  <milestones>
+    <ul>
+      <li year="1994"> The company released its first game, King's Field, for the PlayStation in 1994. (Japan only)
+      </li>
+      <li year="1995"> It went on to release King's Field II and III internationally in 1995 and 1996. </li>
+      <li year="1997"> In 1997, FromSoftware released the first Armored Core series game. </li>
+      <li year="2009"> The company started a new gaming genre called "Soulslike" with the release of
+        Demon's Souls in 2009. </li>
+      <li year="2009"> In 2011, they released Dark Souls I which found huge commercial success and had 2 sequels </li>
+      <li year="2015"> They released Bloodborne in 2015 exclusively on the PlayStation 4. </li>
+      <li year="2022"> In 2022, FromSoftware released Elden Ring their most successful game ever and sold over 28.6
+        million copies worldwide. </li>
+    </ul>
+  </milestones>
+  <current_projects>
+    <p>
+      This is purely speculation but a Bloodborne Remaster or sequel could be worked on to coincide with the launch of
+      Playstation 6, which would be around 2028.
+    </p>
+  </current_projects>
+</overview>  
+<notable_games>
+  <game>
+    <gamedata>
+      <game_name> Demon's Souls </game_name>
+      <released year="2009"/>
+      <publisher> Sony (JP) - Atlus (NA) - Bandai Namco (PAL) </publisher>
+      <platforms> PlayStation 3 </platforms>
+      <genre> Action role-playing </genre>
+    </gamedata>
+    <description>
+      <p>
+      Demon's Souls is set in Boletaria, a kingdom consumed by a dark being called the Old One, following its release
+      through the use of forbidden Soul Arts. Players take on the role of a hero brought to Boletaria to kill its fallen
+      king Allant and pacify the Old One. Gameplay has players navigating five different worlds from a hub called the
+      Nexus, with a heavy emphasis on challenging combat and mechanics surrounding player death and respawning. Online
+      multiplayer allows both player cooperation and world invasions featuring player versus player combat.
+      </p>
+    </description>
+    <awards>
+      <ul>
+        <li year="2009"> Game of the Year, Best PS3 game, Best Role-Playing game and Best Original Game Mechanic
+          for the online integration awards by GameSpot in 2009. </li>
+        <li year="2010"> Best RPG and Best New intellectual property by GameTrailers. </li>
+        <li year="2009"> Best RPG for the PS3 by IGN. </li>
+      </ul>
+    </awards>
+  </game>
+  <game>
+    <gamedata>
+      <game_name> Bloodborne</game_name>
+      <released year="2015"/>
+      <publisher> Sony </publisher>
+      <platforms> PlayStation 4 </platforms>
+      <genre> Action role-playing </genre>
+    </gamedata>
+    <description>
+      <p>
+      Bloodborne is an action role-playing game played from a third-person perspective and features elements similar
+      to those found in the Dark Souls series, also made by FromSoftware. The player makes their way through different
+      locations within the decrepit Gothic world of Yharnam while battling varied enemies, including bosses,collecting
+      different types of items that have many uses, interacting with non-player characters, opening up shortcuts,
+      and continuing through the main story.
+      </p>
+    </description>
+    <awards>
+      <p>
+        Bloodborne was awarded the 2015 Game of the Year by several video game review sites, including GameTrailers,
+        Eurogamer, Destructoid, and Edge, along with being awarded the "2015 PlayStation 4 Game of the Year" by IGN. 
+        In 2015, Edge rated it the fourth greatest video game of all time. A 2023 poll conducted by GQ which surveyed a 
+        team of video game journalists across the industry ranked Bloodborne as the fourth best video game of all time.
+      </p>
+    </awards>
+  </game>
+  <game>
+    <gamedata>
+      <game_name> Elden Ring </game_name>
+      <released year="2022"/>
+      <publisher> Bandai Namco </publisher>
+      <platforms>PC - PlayStation 4/5 - Xbox One/Series SX </platforms>
+      <genre> Action role-playing </genre>
+    </gamedata>
+    <description>
+      <p>
+        Elden Ring is a 2022 action role-playing game developed by FromSoftware. It was directed by Hidetaka Miyazaki
+        with worldbuilding provided by American fantasy writer George R. R. Martin. It was published for PlayStation 4,
+        PlayStation 5, Windows, Xbox One, and Xbox Series X/S on February 25 in Japan by FromSoftware and
+        internationally by Bandai Namco Entertainment. Set in the Lands Between, players control a customizable player
+        character on a quest to repair the Elden Ring and become the new Elden Lord.
+      </p>
+    </description>
+    <awards>
+      <p>
+        Elden Ring received over 300 Game of the Year awards, including by the publications Ars Technica, Destructoid,
+        EGM, Eurogamer, Game Informer, GamesRadar+, GameSpot, IGN, PC Gamer, and Polygon.
+      </p>
+    </awards>
+  </game>
+</notable_games>
+<illustrations>
+  <img src="../Images/FromSoftware/Bloodborne.jpg" alt="Bloodborne"/>
+  <img src="../Images/FromSoftware/Demon's_souls.jpg" alt="Demon's Souls"/>
+  <img src="../Images/FromSoftware/Elden_ring.jpg" alt="Elden Ring"/>
+  <img src="../Images/FromSoftware/FromSoftware.png" alt="FromSoftware"/>
+  <img src="../Images/FromSoftware/Hidetaka_Miyazaki.png" alt="Hidetaka Miyazaki"/>
+</illustrations>
+</game_studios>

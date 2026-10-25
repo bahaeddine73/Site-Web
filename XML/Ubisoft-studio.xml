@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE game_studios SYSTEM "game_studios.dtd">
+<game_studios status="active" main_genre="Action-adventure" year_of_first_game_published="1986" id="2">
+    <studiodata>
+        <name>Ubisoft</name>
+        <headquarters>Montreuil, France</headquarters>
+        <founded day="28" month="3" year="1986"/>
+        <key_people title="co-founder">Yves Guillemot</key_people>
+        <key_people title="CEO">Yves Guillemot</key_people>
+        <number_of_employees month="2" year="2025">Around 20,000</number_of_employees>
+    </studiodata>
+    <citation author="Yves Guillemot">We aim to create unique and unforgettable experiences for players around the world.</citation>
+    <overview>
+        <history>
+            <p>Founded in 1986, Ubisoft is known for popular franchises such as "Assassin's Creed", "Far Cry", and "Rainbow Six".</p>
+        </history>
+        <milestones>
+            <ul>
+                <li year="2007">Release of "Assassin's Creed".</li>
+                <li year="2012">Launch of "Far Cry 3".</li>
+                <li year="2014">Release of "Watch Dogs".</li>
+                <li year="2020">Launch of "Assassin's Creed Valhalla".</li>
+                <li year="2021">Release of "Far Cry 6".</li>
+            </ul>
+        </milestones>
+        <awards>
+            <ul>
+                <li year="2007">BAFTA Games Award for Best Game (Assassin's Creed).</li>
+                <li year="2014">The Game Awards - Best Action/Adventure (Watch Dogs).</li>
+            </ul>
+        </awards>
+        <current_projects>
+            <p>Ubisoft has ongoing projects, including future titles in the "Assassin's Creed" and "Far Cry" franchises, as well as potential remasters of older games for next-gen consoles.</p>
+        </current_projects>
+    </overview>
+    <notable_games>
+        <game>
+            <gamedata>
+                <game_name>Assassin's Creed Valhalla</game_name>
+                <released year="2020"/>
+                <publisher>Ubisoft</publisher>
+                <platforms>PlayStation 4, 5, Xbox One, Series X/S, PC</platforms>
+                <genre>Action-adventure, RPG</genre>
+            </gamedata>
+            <description>
+                <p>"Assassin's Creed Valhalla" takes place in the Viking era, allowing players to explore and conquer England and Norway in a detailed open-world environment.</p>
+            </description>
+        </game>
+        <game>
+            <gamedata>
+                <game_name>Far Cry 6</game_name>
+                <released year="2021"/>
+                <publisher>Ubisoft</publisher>
+                <platforms>PlayStation 4, 5, Xbox One, Series X/S, PC</platforms>
+                <genre>First-person shooter</genre>
+            </gamedata>
+        </game>
+    </notable_games>
+    <illustrations>
+        <img src="../Images/Ubisoftstudio/studiophoto.png" alt="Ubisoft studio logo"/>
+        <img src="../Images/Ubisoftstudio/photo_of_the_game1.png" alt="Ubisoft studio logo"/>
+        <img src="../Images/Ubisoftstudio/photo_of_the_game2.png" alt="Ubisoft studio logo"/>
+        <img src="../Images/Ubisoftstudio/photo_of_the_game3.png" alt="Ubisoft studio logo"/>
+        <img src="../Images/Ubisoftstudio/photo_of_the_game4.png" alt="Ubisoft studio logo"/>
+    </illustrations>
+</game_studios>

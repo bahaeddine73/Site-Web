@@ -1,0 +1,113 @@
+@import url('styleconformance.css');
+:root {
+    --primary-color: blue;
+    --secondary-color: darkgray;
+    --background-gradient: linear-gradient(to bottom, lightgray, white);
+    --font-family: Arial, sans-serif;
+    --line-height: 1.6;
+    --background-color: white;
+    --text-color: black;
+    padding: 5px;
+}
+body {
+    font-family: var(--font-family);
+    line-height: var(--line-height);
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+#game_studios {
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+#notable_games {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+blockquote {
+    padding: 15px;
+    margin: 20px 0;
+    font-style: italic;
+}
+h1, h2, h3 {
+    color: var(--secondary-color);
+}
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+#game_studios img, #portrait img {
+    width: 200px;
+}
+#notable_games img {
+    width: 350px;
+}
+tr > td {
+    font-family: "Courier New", Courier, monospace;
+}
+#history p::first-letter, h3 + h4 {
+    font-style : italic;
+}
+#portrait, #menu {
+    text-align: center;
+}
+#portrait h1 {
+    animation: none;
+    text-align: left;
+}
+.emoji {
+    font-size: 50px;
+}
+#portrait span {
+    display: block;
+}
+#portrait img {
+    width: 275px
+}
+#sources h1 {
+    animation: none;
+}
+#menu {
+    max-width: none;
+}
+#menu img {
+    height: 200px;
+}
+#contact img {
+    height: 100px
+}
+#form1 {
+    .top {
+        text-align: center;
+        width: 100%;
+        text-transform: uppercase;
+    }
+    #set_five {
+        text-align: center;
+    }
+    table {
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+    }
+    th {
+        border: 2px solid blue;
+    }
+    li {
+        list-style-type: none;
+    }
+}
+
+
+

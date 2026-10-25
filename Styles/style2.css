@@ -1,0 +1,54 @@
+@import url('common.css');
+body {
+    background: white;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.8;
+}
+#game_studios {
+    background: lightgray;
+    color: black;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+h1 {
+    font-size: 2.5rem;
+    color: black;
+    font-weight: bold;
+    text-shadow: none;
+    animation: none;
+}
+h2 {
+    font-size: 2rem;
+    color: black;
+    text-shadow: none;
+}
+p {
+    font-size: 1.4rem;
+    color: black;
+    line-height: 1.8;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: none;
+    transition: none;
+}
+#notable_games {
+    background: white;
+}
+blockquote {
+    background: lightgray;
+    border-left: 5px solid black;
+    color: black;
+    box-shadow: none;
+}
+.emoji {
+    font-size: 40px;
+}
+#form1 .top {
+    background-color: lightgray;
+}
+#form1 th {
+    border: 2px solid dimgray;
+}

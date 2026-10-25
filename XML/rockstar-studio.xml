@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE game_studios SYSTEM "game_studios.dtd">
+<game_studios status="active" main_genre="Action-adventure" year_of_first_game_published="1997" id="3">
+    <studiodata>
+        <name>Rockstar Games</name>
+        <headquarters>New York, United States</headquarters>
+        <founded day="12" month="3" year="1998"/>
+        <key_people title="founder">Sam Houser</key_people>
+        <key_people title="president">Sam Houser</key_people>
+        <number_of_employees month="2" year="2025">Around 2,000</number_of_employees>
+    </studiodata>
+    <citation author="Sam Houser">We’ve always wanted to create games that push the boundaries and offer immersive experiences.</citation>
+    <overview>
+        <history>
+            <p>Rockstar Games is an American video game publisher founded in 1998 by Sam Houser, Dan Houser, Terry Donovan, Jamie King, and Gary Foreman. The company is best known for its successful "Grand Theft Auto" series, which began in 1997 under the development of DMA Design, later renamed Rockstar North. Over the years, Rockstar Games has expanded its portfolio with franchises such as "Red Dead", "Max Payne", and "Midnight Club".</p>
+            <p>In 2014, Rockstar Games was honored with a BAFTA Academy Fellowship Award for its outstanding contribution to the video game industry. That same year, founders Sam and Dan Houser were inducted into the Hall of Fame of the Academy of Interactive Arts and Sciences. In 2020, Dan Houser left the company to pursue other projects, leaving Sam Houser in charge of the company.</p>
+        </history>
+        <milestones>
+            <ul>
+                <li year="1997">Release of the first "Grand Theft Auto", marking the beginning of an iconic franchise.</li>
+                <li year="2001">Launch of "Grand Theft Auto III", introducing a 3D perspective and open-world, revolutionizing the genre.</li>
+                <li year="2010">Release of "Red Dead Redemption", a critically acclaimed game set in the American West.</li>
+                <li year="2013">Launch of "Grand Theft Auto V", becoming the second best-selling game of all time with over 200 million copies sold.</li>
+                <li year="2018">Release of "Red Dead Redemption 2", praised for its narrative depth and detailed world.</li>
+            </ul>
+        </milestones>
+        <current_projects>
+            <p>Although Rockstar Games has not officially announced new projects, persistent rumors suggest the development of "Grand Theft Auto VI". Fans also speculate about potential remasters of classic titles for next-gen consoles.</p>
+        </current_projects>
+    </overview>
+    <notable_games>
+        <game>
+            <gamedata>
+                <game_name>Grand Theft Auto V</game_name>
+                <released year="2013"/>
+                <publisher>Rockstar Games</publisher>
+                <platforms>PlayStation 3, PlayStation 4, PlayStation 5, Xbox 360, Xbox One, Xbox Series X/S, PC</platforms>
+                <genre>Action-adventure</genre>
+            </gamedata>
+            <description>
+                <p>"Grand Theft Auto V" follows the story of three criminals in the fictional city of Los Santos, allowing players to switch between protagonists. The game is known for its expansive and detailed open world, as well as its multiplayer mode, "GTA Online".</p>
+            </description>
+            <awards>
+                <ul>
+                    <li year="2013">Game of the Year by multiple publications, including GameSpot and IGN.</li>
+                    <li year="2014">BAFTA Games Award for Best British Game.</li>
+                </ul>
+            </awards>
+        </game>
+        <game>
+            <gamedata>
+                <game_name>Red Dead Redemption 2</game_name>
+                <released year="2018"/>
+                <publisher>Rockstar Games</publisher>
+                <platforms>PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S, PC</platforms>
+                <genre>Action-adventure</genre>
+            </gamedata>
+            <description>
+                <p>"Red Dead Redemption 2" is a prequel to the original game, set in 1899 and following the outlaw Arthur Morgan. The game is praised for its immersive storytelling, rich open world, and realistic details.</p>
+            </description>
+            <awards>
+                <ul>
+                    <li year="2018">Game Awards: Best Narrative.</li>
+                    <li year="2019">BAFTA Games Award for Best Game.</li>
+                </ul>
+            </awards>
+        </game>
+    </notable_games>
+    <illustrations>
+        <img src="../Images/Rockstarstudio/rockstarphoto" alt="Rockstar Games logo"/>
+        <img src="../Images/Rockstarstudio/photo of the game_1.png" alt="Rockstar Games logo"/>
+        <img src="../Images/Rockstarstudio/photo of the game_1.1.png" alt="Rockstar Games logo"/>
+        <img src="../Images/Rockstarstudio/photo of the game_2.png" alt="Rockstar Games logo"/>
+        <img src="../Images/Rockstarstudio/photo of the game_2.2.png" alt="Rockstar Games logo"/>
+    </illustrations>
+</game_studios>

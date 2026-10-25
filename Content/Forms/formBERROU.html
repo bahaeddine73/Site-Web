@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+  <head>
+    <title>Quiz on Naughty Dog & FromSoftware</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <script type="text/javascript" src="initialisation.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../Styles/style1.css" media="screen" title="style1"/>
+    <link rel="alternate stylesheet" type="text/css" href="../../Styles/style2.css" media="screen" title="style2"/>
+
+  </head>
+  <body onload="initReadOnlyTextInput()">
+
+
+    <h1>Quiz on Naughty Dog & FromSoftware </h1>
+    <form onclick="method_process()" method="post" id="form1">
+      <fieldset id="set_id">
+        <legend class="top">Your identity</legend>
+        <p>
+          <label>Last name</label>
+          <input type="text" value="your last name" maxlength="30" size="20" id="lastname"/>
+        </p>
+
+        <p>
+          <label>First name</label>
+          <input type="text" value="your first name" maxlength="30" size="20" id="firstname"/>
+        </p>
+
+        <p>
+          <label>Time of connection to the page </label>
+          <input type="text" readonly="readonly" size="40" id="show_date" value=""/>
+        </p>
+        <p>
+          <input type="hidden"/>
+        </p>
+      </fieldset>
+
+      <fieldset id="set_one">
+        <legend class="top">Type the correct answer (Key Facts & Current Projects)</legend>
+        <p>
+          <label>When was FromSoftware founded?</label>
+          <input type="text" value="" maxlength="4" size="4"/>
+        </p>
+
+        <p>
+          <label>When did FromSoftware release their first game?</label>
+          <input type="text" value="" maxlength="4" size="4"/>
+        </p>
+        <p>
+          <label>What is FromSoftware currently working on?</label>
+          <input type="text" value="" maxlength="50" size="40"/>
+        </p>
+
+        <p>
+          <label>When was Naughty Dog founded?</label>
+          <input type="text" value="" maxlength="4" size="4"/>
+        </p>
+        <p>
+          <label>When did Naughty Dog release their first game?</label>
+          <input type="text" value="" maxlength="4" size="4"/>
+        </p>
+
+        <p>
+          <label>What is Naughty Dog currently working on?</label>
+          <input type="text" value="" maxlength="50" size="40"/>
+        </p>
+      </fieldset>
+      <fieldset id="set_two">
+        <legend class="top">True or False (History)</legend>
+
+        <table>
+          <thead>
+            <tr>
+              <th> Statement</th>
+              <th> True</th>
+              <th> False</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong> Naughty Dog was acquired by Sony Computer Entertainment in 2001</strong></td>
+              <td><input type="radio" name="a"/></td>
+              <td><input type="radio" name="a"/></td>
+            </tr>
+            <tr>
+              <td><strong> Naughty Dog participated in making GTA San Andreas  </strong></td>
+              <td><input type="radio" name="b"/></td>
+              <td><input type="radio" name="b"/></td>
+            </tr>
+            <tr>
+              <td><strong> Naughty Dog created Crash Bandicoot for the Xbox in 1996 </strong></td>
+              <td><input type="radio" name="c"/></td>
+              <td><input type="radio" name="c"/></td>
+            </tr>
+            <tr>
+              <td><strong> In 2004, Jason Rubin left Naughty Dog to work on a new project, Iron and the Maiden </strong></td>
+              <td><input type="radio" name="d"/></td>
+              <td><input type="radio" name="d"/></td>
+            </tr>
+            <tr>
+              <td><strong> Naughty Dog's first PlayStation 3 game was released in 2010 </strong></td>
+              <td><input type="radio" name="e"/></td>
+              <td><input type="radio" name="e"/></td>
+            </tr>
+            <tr>
+              <td><strong> Naughty Dog released The Last of Us Part II in 2013 </strong></td>
+              <td><input type="radio" name="f"/></td>
+              <td><input type="radio" name="f"/></td>
+            </tr>
+            <tr>
+              <td><strong> Naughty Dog is currently working on The Last of Us Part IV </strong></td>
+              <td><input type="radio" name="g"/></td>
+              <td><input type="radio" name="g"/></td>
+            </tr>
+            <tr>
+              <td><strong> FromSoftware was initially a developer of business software </strong></td>
+              <td><input type="radio" name="h"/></td>
+              <td><input type="radio" name="h"/></td>
+            </tr>
+            <tr>
+              <td><strong> FromSoftware released King's Field exclusively for the Xbox in 1994 </strong></td>
+              <td><input type="radio" name="i"/></td>
+              <td><input type="radio" name="i"/></td>
+            </tr>
+            <tr>
+              <td><strong> The first installement of the mecha shooter series Armored Core was released in 1997 </strong></td>
+              <td><input type="radio" name="j"/></td>
+              <td><input type="radio" name="j"/></td>
+            </tr>
+            <tr>
+              <td><strong> FromSoftware created the Soulslike gaming subgenre </strong></td>
+              <td><input type="radio" name="k"/></td>
+              <td><input type="radio" name="k"/></td>
+            </tr>
+            <tr>
+              <td><strong>Hidetaka Miyazaki has served as FromSoftware's representative director and president since 2014 </strong></td>
+              <td><input type="radio" name="l"/></td>
+              <td><input type="radio" name="l"/></td>
+            </tr>
+            <tr>
+              <td><strong> Hidetaka Miyazaki participates in the creation of the majority of FromSoftware's games</strong></td>
+              <td><input type="radio" name="m"/></td>
+              <td><input type="radio" name="m"/></td>
+            </tr>
+            <tr>
+              <td><strong> FromSoftware is owned primarily by the Norwegian sovereign fund </strong></td>
+              <td><input type="radio" name="n"/></td>
+              <td><input type="radio" name="n"/></td>
+            </tr>
+            <tr>
+              <td><strong> FromSoftware relies on Sony for publishing in Japan  </strong></td>
+              <td><input type="radio" name="o"/></td>
+              <td><input type="radio" name="o"/></td>
+            </tr>
+            <tr>
+              <td><strong> FromSoftware self-publishes its games internationally </strong></td>
+              <td><input type="radio" name="p"/></td>
+              <td><input type="radio" name="p"/></td>
+            </tr>
+          </tbody>
+        </table>
+
+      </fieldset>
+      <fieldset id="set_three">
+        <legend class="top"> Choose the correct answers (Key Facts)</legend>
+
+
+        <ul>
+          <li>
+            <label> Where is FromSoftware headquartered?</label>
+            <select>
+              <option disabled selected> choose</option>
+              <option> Seoul, South Korea</option>
+              <option> Paris, France</option>
+              <option> Tokyo, Japan</option>
+            </select>
+          </li>
+          <li>
+            <label> How many people does FromSoftware employ?</label>
+            <select>
+              <option disabled selected> choose</option>
+              <option> Less than 100</option>
+              <option> Between 100 and 999</option>
+              <option> More than 1000</option>
+            </select>
+          </li>
+          <li>
+            <label> Where is Naughty Dog headquartered? </label>
+            <select>
+              <option disabled selected> choose</option>
+              <option>Santa Monica, California</option>
+              <option> San Jose, California</option>
+              <option> San Francisco, California</option>
+            </select>
+          </li>
+          <li>
+            <label> What's Neil Druckmann's role in Naughty Dog?</label>
+            <select multiple>
+              <option disabled selected> choose</option>
+              <option> Studio Manager</option>
+              <option> Co-Founder</option>
+              <option> President</option>
+              <option> Head of Creative</option>
+            </select>
+          </li>
+        </ul>
+
+      </fieldset>
+      <fieldset id="set_four">
+        <legend class="top">Choose the correct answers (Notable Games)</legend>
+        <ul>
+          <li>
+
+            <span>Choose the games made by Naughty Dog:</span>
+            <ul>
+              <li><input type="checkbox"/>
+                <label>The Last of Us</label>
+              </li>
+              <li>
+                <input type="checkbox"/>
+                <label>Battlefield 1</label>
+              </li>
+              <li><input type="checkbox"/>
+                <label>Cyberpunk 2077</label>
+              </li>
+              <li>
+                <input type="checkbox"/>
+                <label>The Witcher 3</label>
+              </li>
+              <li>
+                <input type="checkbox"/>
+                <label>Bloodborne</label>
+              </li>
+
+            </ul>
+          </li>
+
+
+          <li>
+            <span>Which platforms was Uncharted 4: A Thief's End released on?</span>
+            <ul>
+              <li>
+                <input type="checkbox"/>
+                <label>PlayStation 3</label>
+              </li>
+              <li>
+                <input type="checkbox"/>
+                <label>Playstation 4</label>
+              </li>
+              <li>
+                <input type="checkbox"/>
+                <label>PlayStation 5</label>
+              </li>
+              <li>
+                <input type="checkbox"/>
+                <label>Xbox One</label>
+              </li>
+
+            </ul>
+          </li>
+
+
+          <li>
+            <span>Choose the games made by FromSoftware:</span>
+
+            <ul>
+              <li>
+                <input type="checkbox"/>
+                <label>Horizon Zero Dawn</label>
+              </li>
+              <li>
+
+                <input type="checkbox"/>
+                <label>Elden Ring</label>
+              </li>
+              <li>
+
+                <input type="checkbox"/>
+                <label>Bloodborne</label>
+              </li>
+              <li>
+
+                <input type="checkbox"/>
+                <label>Demon's Souls</label>
+              </li>
+
+            </ul>
+          </li>
+
+
+        </ul>
+      </fieldset>
+
+
+      <fieldset id="set_five">
+        <legend class="top">Form Actions</legend>
+
+        <div>
+          <button type="reset"> Clear</button>
+          <button type="button"> Verify </button>
+          <button type="button" onclick="mysubmit()"> Send</button>
+        </div>
+
+      </fieldset>
+    </form>
+
+
+    <hr/>
+
+
+  </body>
+</html>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+    <title>Quiz on Naughty Dog & FromSoftware</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <script type="text/javascript" src="initialisation.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../Styles/style1.css" media="screen" title="style1"/>
+    <link rel="alternate stylesheet" type="text/css" href="../../Styles/style2.css" media="screen" title="style2"/>
+
+</head>
+<body onload="initReadOnlyTextInput()">
+
+
+<h1>Quiz on Naughty Dog & FromSoftware </h1>
+<form action="http://voca2.univ-poitiers.fr/~subrenat/cours_web/traitement.php" method="post" id="form1">
+    <fieldset id="set_id">
+        <legend class="top">Your identity</legend>
+        <p>
+            <label>Last name</label>
+            <input type="text" value="your last name" maxlength="30" size="20" id="lastname"/>
+        </p>
+
+        <p>
+            <label>First name</label>
+            <input type="text" value="your first name" maxlength="30" size="20" id="firstname"/>
+        </p>
+
+        <p>
+            <label>Time of connection to the page </label>
+            <input type="text" readonly="readonly" size="40" id="show_date" value=""/>
+        </p>
+        <p>
+            <input type="hidden"/>
+        </p>
+    </fieldset>
+
+    <fieldset id="set_one">
+        <legend class="top">Key Facts</legend>
+        <p>
+            <label>Status 	</label>
+            <select>
+                <option disabled selected> choose</option>
+                <option> Active</option>
+                <option> Defunct</option>
+            </select>
+        </p>
+
+        <p>
+            <label>Main genre</label>
+            <input type="text" value="" maxlength="100" size="50"/>
+        </p>
+        <p>
+            <label>First game release year</label>
+            <input type="text" value="" maxlength="4" size="4"/>
+        </p>
+
+        <p>
+            <label>Headquarters</label>
+            <input type="text" value="" maxlength="100" size="50"/>
+        </p>
+        <p>
+            <label>Founded 	</label>
+            <input type="text" value="" maxlength="4" size="4"/>
+        </p>
+
+        <p>
+            <label>Key people</label>
+            <input type="text" value="" maxlength="100" size="50"/>
+        </p>
+        <p>
+            <label>Number of employees</label>
+            <input type="text" value="" maxlength="100" size="50"/>
+        </p>
+    </fieldset>
+    <fieldset id="set_two">
+        <legend class="top">Quote (Optional)</legend>
+        <p>
+            <label>Citation</label>
+            <input type="text" value="" maxlength="200" size="100"/>
+        </p>
+        <p>
+            <label>Author</label>
+            <input type="text" value="" maxlength="100" size="50"/>
+        </p>
+
+    </fieldset>
+    <fieldset id="set_three">
+        <legend class="top"> History, Milestones, Awards, and Current Projects</legend>
+        <p>
+            <label>Put your text (History)</label>
+            <input type="text" value="" maxlength="400" size="50"/>
+        </p>
+        <p>
+            <label>Milestones (You don't have to fill all):</label>
+            <table>
+              <tr>
+                <th></th>
+                <th>Year</th>
+                <th>Milestone</th>
+               </tr>
+               <tr>
+                <td>1</td>
+                <td>
+                    <input type="text" value="" maxlength="4" size="4"/>
+                </td>
+                <td>
+                    <input type="text" value="" maxlength="100" size="50"/>
+                </td>
+               </tr>
+               <tr>
+                <td>2</td>
+                <td>
+                    <input type="text" value="" maxlength="4" size="4"/>
+                </td>
+                <td>
+                    <input type="text" value="" maxlength="100" size="50"/>
+                </td>
+               </tr>
+               <tr>
+                <td>3</td>
+                <td>
+                    <input type="text" value="" maxlength="4" size="4"/>
+                </td>
+                <td>
+                    <input type="text" value="" maxlength="100" size="50"/>
+                </td>
+               </tr>
+        <tr>
+            <td>4</td>
+            <td>
+                <input type="text" value="" maxlength="4" size="4"/>
+            </td>
+            <td>
+                <input type="text" value="" maxlength="100" size="50"/>
+            </td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>
+                <input type="text" value="" maxlength="4" size="4"/>
+            </td>
+            <td>
+                <input type="text" value="" maxlength="100" size="50"/>
+            </td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>
+                <input type="text" value="" maxlength="4" size="4"/>
+            </td>
+            <td>
+                <input type="text" value="" maxlength="100" size="50"/>
+            </td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>
+                <input type="text" value="" maxlength="4" size="4"/>
+            </td>
+            <td>
+                <input type="text" value="" maxlength="100" size="50"/>
+            </td>
+        </tr>
+            </table>
+        </p>
+        </p>
+        <p>
+            <label>Put your text (Current Projects) (Optional)</label>
+            <input type="text" value="" maxlength="400" size="50"/>
+        </p>
+
+
+    </fieldset>
+    <fieldset id="set_four">
+        <legend class="top">Notable Games</legend>
+        <ul>
+            <li>
+
+                <span>Platforms:</span>
+                <ul>
+                    <li><input type="checkbox"/>
+                        <label>PC</label>
+                    </li>
+                    <li><input type="checkbox"/>
+                        <label>PlayStation 4</label>
+                    </li>
+                    <li>
+                        <input type="checkbox"/>
+                        <label>Xbox One</label>
+                    </li>
+                    <li><input type="checkbox"/>
+                        <label>PlayStation 5</label>
+                    </li>
+                    <li>
+                        <input type="checkbox"/>
+                        <label>Xbox Series</label>
+                    </li>
+                    <li>
+                        <input type="checkbox"/>
+                        <label>Nintendo (Switch, Wii, ...) </label>
+                    </li>
+                    <li>
+                        <input type="checkbox"/>
+                        <label>PlayStation 3 / Xbox 360 (or older) </label>
+                    </li>
+
+                </ul>
+            </li>
+
+
+            <li>
+                <span>Which platforms was Uncharted 4: A Thief's End released on?</span>
+                <ul>
+                    <li>
+                        <input type="checkbox"/>
+                        <label>PlayStation 3</label>
+                    </li>
+                    <li>
+                        <input type="checkbox"/>
+                        <label>Playstation 4</label>
+                    </li>
+                    <li>
+                        <input type="checkbox"/>
+                        <label>PlayStation 5</label>
+                    </li>
+                    <li>
+                        <input type="checkbox"/>
+                        <label>Xbox One</label>
+                    </li>
+
+                </ul>
+            </li>
+
+
+            <li>
+                <span>Choose the games made by FromSoftware:</span>
+
+                <ul>
+                    <li>
+                        <input type="checkbox"/>
+                        <label>Horizon Zero Dawn</label>
+                    </li>
+                    <li>
+
+                        <input type="checkbox"/>
+                        <label>Elden Ring</label>
+                    </li>
+                    <li>
+
+                        <input type="checkbox"/>
+                        <label>Bloodborne</label>
+                    </li>
+                    <li>
+
+                        <input type="checkbox"/>
+                        <label>Demon's Souls</label>
+                    </li>
+
+                </ul>
+            </li>
+
+
+        </ul>
+    </fieldset>
+
+
+    <fieldset id="set_five">
+        <legend class="top">Form Actions</legend>
+
+        <div>
+            <button type="reset"> Clear</button>
+            <button type="button"> Verify </button>
+            <button type="button" onclick="mysubmit()"> Send</button>
+        </div>
+
+    </fieldset>
+</form>
+
+
+<hr/>
+
+
+</body>
+</html>

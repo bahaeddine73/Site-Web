@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Vérification des contraintes de style</title>
+  <link rel="stylesheet" type="text/css" title="style" media="screen" href="styleconformance.css"/>
+</head>
+<body>
+
+<h1>Vérification des contraintes de style</h1>
+
+<table>
+  <thead>
+  <tr>
+    <th>Contrainte</th> <th>Fichiers de style</th> <th>lignes</th> <th>sélecteurs</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>sélecteurs d'éléments</td>
+    <td>style1.css</td>
+    <td>21</td>
+    <td>h1</td>
+  </tr>
+  <tr>
+    <td>sélecteurs via id et class</td>
+    <td>common.css, style2.css</td>
+    <td> 51 :(class) , 10 : (id) </td>
+    <td>.pulse ,  #game_studios</td>
+  </tr>
+  <tr>
+    <td> sélecteurs de descendants </td>
+    <td>style2.css</td>
+    <td>54</td>
+    <td>#notable_games img</td>
+  </tr>
+  <tr>
+    <td>sélecteurs via des pseudo-classes</td>
+    <td>common.css, style1.css</td>
+    <td>28, 109</td>
+    <td>a:hover, button:hover</td>
+  </tr>
+  </tbody>
+</table>
+</body>
+</html>
