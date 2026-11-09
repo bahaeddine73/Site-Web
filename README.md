@@ -22,16 +22,19 @@ University project (1st year of Computer Science, University of Poitiers), done 
 
 ## Work split
 
-**Abdel Melick Berrou**
-- Studio pages: FromSoftware and Naughty Dog
-- Forms: formBERROU and newCOLLECTIONform
-- Authors page and index.html
-- Styles specific to the authors page and the home page
-
 **Bahaeddine Achour**
 - Studio pages: Rockstar and Ubisoft
 - Forms: formACHOUR and the guestbook
+-  Authors page and index.html
 - All the other styles (CSS)
+
+
+
+**Abdel Melick Berrou**
+- Studio pages: FromSoftware and Naughty Dog
+- Forms: formBERROU and newCOLLECTIONform
+- Styles specific to the authors page and the home page
+
 
 **Together**
 - Sources page and this README
