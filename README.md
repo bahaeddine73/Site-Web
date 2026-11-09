@@ -1,18 +1,41 @@
-# Site-Web
-les studios de jeux vidéo
-Binome: Abdel Melick BERROU (FromSoftware & NaughtyDog) - Bahaeddine ACHOUR (Rockstar studio & Ubisoft) 
+# Video Game Studios Website
 
-Abdel Melick BERROU 
-    Fiches = FromSoftware & NaughtyDog
-    Forms = formBERROU & newCOLLECTIONform
-    Miscellaneous & autres = authors & index.html
-    Styles = ce qui concerne uniquement authors & index 
+A website presenting video game studios: studio profile pages, forms, a guestbook, and an authors page.
 
-Bahaeddine ACHOUR
-    Fiches = Rockstar studio & Ubisoft
-    Forms = formACHOUR & livredor
-    Styles = Tous les styles (sauf ce qui concerne uniquement authors & index) 
-    
-Binome
-   Page sources
+University project (1st year of Computer Science, University of Poitiers), done in pair.
 
+## Technologies
+
+- HTML
+- CSS
+- JavaScript
+- TypeScript
+
+## Pages
+
+- Home page (index.html)
+- Studio profile pages: FromSoftware, Naughty Dog, Rockstar Games, Ubisoft
+- Forms: studio contact forms and a new collection form
+- Guestbook
+- Authors page
+- Sources page
+
+## Work split
+
+**Abdel Melick Berrou**
+- Studio pages: FromSoftware and Naughty Dog
+- Forms: formBERROU and newCOLLECTIONform
+- Authors page and index.html
+- Styles specific to the authors page and the home page
+
+**Bahaeddine Achour**
+- Studio pages: Rockstar and Ubisoft
+- Forms: formACHOUR and the guestbook
+- All the other styles (CSS)
+
+**Together**
+- Sources page and this README
+
+## How to run
+
+Download or clone the repository, then open `index.html` in a web browser.
